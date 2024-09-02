@@ -3,8 +3,18 @@
 }
 
 header, footer {
-   color: white;
-   background-color: green;
+   background-color: #305d30;
+}
+header {
+   height: 100px;
+   width: 100%;
+   border-bottom: 8px solid #e3c9a7;
+ }
+
+footer {
+   height: 100px;
+   width: 100%;
+   border-bottom: 8px solid #3c3730;
 }
 
 .section-1{
@@ -12,5 +22,5 @@ header, footer {
 }
 
 .section-2{
-   background-color: tan;
+   background-color: #e3c9a7;
 }
