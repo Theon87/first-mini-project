@@ -78,3 +78,10 @@ form {
    border: 5px solid #DDAF94;
    border-radius: 20px;
 }
+
+label {
+   display: inline-block;
+   width: 100px;
+}
+
+button
