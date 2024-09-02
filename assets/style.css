@@ -1,3 +1,16 @@
 * {
    text-align: center;
 }
+
+header, footer {
+   color: white;
+   background-color: green;
+}
+
+.section-1{
+   background-color: whitesmoke;
+}
+
+.section-2{
+   background-color: tan;
+}
