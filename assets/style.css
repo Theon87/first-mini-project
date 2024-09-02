@@ -1,11 +1,12 @@
 * {
    margin: 0;
    padding: 0;
+   text-align: center;
 }
 
 body {
    position: relative;
-   font-family: sans-serif;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    font-size: 20px;
    background-color: #FDF8F5;
    color: #4F4846;
@@ -25,6 +26,11 @@ li {
    text-decoration: none;
 }
 
+a {
+   text-decoration: none;
+   color: #FDF8F5;
+}
+
 header, footer {
    height: 60px;
    width: 100%;
@@ -35,8 +41,6 @@ header, footer {
 header {
    position: fixed;
    border-bottom: 10px solid #DDAF94;
-   text-align: right;
-   color: #FDF8F5;
 }
 
 footer {
@@ -56,28 +60,30 @@ img {
    margin: 20px auto;
 }
 
-.figure-section {
-   text-align: center;
-}
-
-.form-section {
+section {
    margin-bottom: 0;
    padding: 20px 10px 40px 10px;
    border-top: 3px solid #DDAF94;
-   background-color: #E8CEBF;
-}
-
+   background-color:  #e8cebf;
+ }
+ 
 form {
    margin: 0 auto;
    width: 500px;
    padding: 10px;
    border: 5px solid #DDAF94;
    border-radius: 20px;
-}
+ }
 
-label {
+ label {
    display: inline-block;
    width: 100px;
+ }
+
+.figure-section {
+   background-color: white;
 }
 
-button
+#tabs {
+   text-align: right;
+}
