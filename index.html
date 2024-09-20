@@ -6,13 +6,16 @@
         <link rel="stylesheet" href="./assets/style.css">
         <title>Module 1 Mini Project</title>
     </head>
+    <!-- It's done when the page uses semantic HTML elements. -->
     <body>
         <header>
             <nav>
                 <ul id="tabs">
                     <li><a href="#">Github</a></li>
                     <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <!-- It's done when the header contains a navigation bar...including a contact link. -->
+                    <!-- It's done when, if the contact link is clicked, the page jumps directly to the contact form. -->
+                    <li><a href="#form-section">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -21,13 +24,16 @@
             <section class="figure-section">
                 <h1>My New Website</h1>
                 <figure>
+                    <!-- It's done when the image includes a descriptive alt attribute. -->
                     <img src="./assets/image-1.png" alt="a square with the words coming soon">
                     <figcaption>Lorem ipsum dolor sit amet consectetur adipisicing elit.</figcaption>
                 </figure>
             </section>
 
+            <!-- It's done when the page uses at least two heading elements (<h1> through <h6>). -->
             <section class="form-section">
                 <h2>Contact Me</h2>
+                <!-- It's done when the contact form includes input elements for name and email. -->
                 <form>
                     <ul>
                         <li id="form-name">
@@ -39,6 +45,7 @@
                             <input type="text" id="email" name="user-email">
                         </li>
                     </ul>
+                    <!-- It's done when the contact form includes a Send button. -->
                     <button type="submit">SEND</button>
                 </form>
             </section>
